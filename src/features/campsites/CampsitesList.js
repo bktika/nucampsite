@@ -1,7 +1,6 @@
 import { CAMPSITES } from '../../app/shared/CAMPSITES';
 import { Col, Row} from 'reactstrap';
-import CampsiteCard from "./CampsiteCard";
-
+import CampsiteCard from './CampsiteCard';
 
 const CampsitesList = () => {
     return (
@@ -15,6 +14,6 @@ const CampsitesList = () => {
             })}
         </Row>
     );
-}
+};
 
 export default CampsitesList;
